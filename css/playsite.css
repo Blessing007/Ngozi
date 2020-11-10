@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background: #F27982;
+height: 150px;
+width: 100%;
+align-items: center;
+}
+
+nav .logo{
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+}
+nav .logo img{ height: 150px;
+width: 150px; }
+nav ul{
+	display: flex;
+	list-style: none;
+}
+
+nav ul li{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+	font-weight: 900;
+}
+p{
+	font-weight: 900;
+	font-size: 100px;
+
+}
